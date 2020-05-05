@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<script type="server/javascript">
+	ale()
+</script>
+<head>
+    <title>${sasa}</title>
+</head>
+<body>
+<h1 title="${object.name}">${person.name}</h1>
+<h2 data-if="object.married" title="${object.spouse}">Spouse:
+    ${object.spouse}</h2>
+<div data-for-child="object.children">Child: ${child}</div>
+</body>
+</html>
